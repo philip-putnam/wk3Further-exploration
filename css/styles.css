@@ -2,6 +2,10 @@ header {
   text-align: center;
 }
 
+.initially-hidden {
+  display: none;
+}
+
 .form-group label {
   font-size: 18px;
   text-align: right;

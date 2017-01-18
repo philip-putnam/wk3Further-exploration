@@ -22,13 +22,19 @@
         <div class="form-group row">
           <label for="factorial" class="col-sm-3 col-form-label">Factorial number:</label>
           <div class="col-sm-2">
-            <input class="form-control" type="text" id="userFactorial">
+            <input class="form-control" type="number" id="userFactorial">
           </div>
         </div>
 
         <button class="btn" type="submit">Factor!</button>
 
       </form>
+
+      <div class="initially-hidden" id="factorial-results">
+        <h4>Your factorial:</h4>
+        <p><span class="factorialNumber"></span>! = <span class="factorialNumber"></span> * <span class="factorial-explained"></span> =
+        <span class="factorial-results"></span></p>
+      </div>
 
     </div>
   </body>
