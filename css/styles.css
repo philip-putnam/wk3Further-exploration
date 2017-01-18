@@ -1,0 +1,13 @@
+header {
+  text-align: center;
+}
+
+.form-group label {
+  font-size: 18px;
+  text-align: right;
+  padding: 5px;
+}
+
+#factorial-form button {
+  margin-left: 70px;
+}
