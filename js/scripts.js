@@ -15,6 +15,16 @@ var showFactor = function(number) {
   return numbersArray;
 };
 
+var recursiveFactor = function(number) {
+  if (number === 0) {
+    return 1;
+  }
+  else {
+    return number * recursiveFactor(number - 1);
+  }
+}
+
+
 // Front-end user-interface
 
 $(document).ready(function() {
@@ -30,8 +40,11 @@ $(document).ready(function() {
 
     $(".factorialNumber").text(usrNum);
     $(".factorial-results").text(factorial(usrNum));
+    $(".recursive-results").text(recursiveFactor(usrNum));
+
 
     $("#factorial-results").show();
+    $("#recursive-results").show();
   });
 
 
